@@ -1,0 +1,6 @@
+{>"layouts/master" /}
+
+{<body}
+    <h1>Hi {user.username} -> {user.email}</h1>
+    <a href="/logout">Log out</a>
+{/body}
